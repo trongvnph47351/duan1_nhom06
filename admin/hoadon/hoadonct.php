@@ -175,7 +175,7 @@ if(is_array($one_hoa_don)){
 
                         <div class="card-footer">
                             <input type="submit" class="btn btn-primary" name="sua" value="Cập nhật trạng thái"
-                                onclick="return confirm('Bạn đã cập nhập thành công')">
+                                onclick="return confirm('Bạn đã cập nhập thành công!!!')">
                             <a href="index.php?act=listhd"><input type="button" value="Trở về danh sách"
                                     class="btn btn-primary"></a>
                         </div>

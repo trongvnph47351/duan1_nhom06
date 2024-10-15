@@ -224,9 +224,9 @@ body {
                                             $a = '<a href="index.php?act=update&id=' . $bill['id'] . '"><button class="btnn" disabled>Đã hủy</button></a>';
                                         } 
                                         
-                                        // else {
-                                        //     $a = '<a href="index.php?act=update&id=' . $bill['id'] . '"><button class="btnn" disabled>Đã nhận được hàng</button></a>';
-                                        // }
+                                        else {
+                                            $a = '<a href="index.php?act=update&id=' . $bill['id'] . '"><button class="btnn" disabled>Đã nhận được hàng</button></a>';
+                                        }
 
                                         $count = load_all_cart_count($bill['id']);
                                         echo '
